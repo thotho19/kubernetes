@@ -38,4 +38,12 @@ minikube is local Kubernetes, focusing on making it easy to learn and develop fo
 
 All you need is Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: minikube start 
 
+# minikube CLS 
 
+**Command**  | **Description** 
+------------ | ---------------
+minikube start --driver=hyperv |  start minikube using HyperV driver.
+minikube config set driver hyperv | To make hyperv the default driver.
+minikube dashboard | install minikube dashboard or run it if it was installed alreay.
+
+ 
