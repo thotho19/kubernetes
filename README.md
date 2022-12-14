@@ -31,3 +31,11 @@ Note: each pod is connected to a Virtual Network that means each POD could have 
 
 # Example Configuration 
 all the configuration go to Master Node and all the services talk to the API server just like Windows API , and most of the configuration is written in JSON or YMAL formt "Declarative fromat" 
+
+
+# minikube  [minikube Startup](https://minikube.sigs.k8s.io/docs/start/)
+minikube is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.
+
+All you need is Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: minikube start 
+
+
